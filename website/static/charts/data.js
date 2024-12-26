@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735195938328,
+  "lastUpdate": 1735195963332,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -6423,6 +6423,52 @@ window.BENCHMARK_DATA = {
             "value": 304.1752592722575,
             "unit": "ns",
             "range": "± 0.7804468548563537"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalidmsft",
+            "email": "hkhalid@microsoft.com"
+          },
+          "committer": {
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalidmsft",
+            "email": "hkhalid@microsoft.com"
+          },
+          "id": "7ad569450256bc85073f0a1d18f572ff4f213811",
+          "message": "reduce branching for set_conditional",
+          "timestamp": "2024-12-25T20:33:25Z",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/7ad569450256bc85073f0a1d18f572ff4f213811"
+        },
+        "date": 1735195952743,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script1(Params: None)",
+            "value": 142.85526275634766,
+            "unit": "ns",
+            "range": "± 0.36480051151421533"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script2(Params: None)",
+            "value": 197.26686477661133,
+            "unit": "ns",
+            "range": "± 0.4529894239539278"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script3(Params: None)",
+            "value": 375.69223812648227,
+            "unit": "ns",
+            "range": "± 0.9826270269971289"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script4(Params: None)",
+            "value": 2302.033462524414,
+            "unit": "ns",
+            "range": "± 5.500720474669039"
           }
         ]
       }
