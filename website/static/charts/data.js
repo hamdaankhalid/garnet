@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735407545259,
+  "lastUpdate": 1735407580393,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -7361,6 +7361,48 @@ window.BENCHMARK_DATA = {
             "value": 1769.7658675057548,
             "unit": "ns",
             "range": "± 2.494969498135742"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sharuzzaman@gmail.com",
+            "name": "Sharuzzaman Ahmat Raslan",
+            "username": "sharuzzaman"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9fb9c07ec75da058d97dda026b1b3fd836869d5b",
+          "message": "fix small typo in overview.md (#898)\n\nfix small typo primaruy -> primary in overview.md",
+          "timestamp": "2024-12-28T09:34:16-08:00",
+          "tree_id": "6733c2040c0e4295b8f88975ea2f43bafe2914d8",
+          "url": "https://github.com/microsoft/garnet/commit/9fb9c07ec75da058d97dda026b1b3fd836869d5b"
+        },
+        "date": 1735407565137,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: ACL)",
+            "value": 1805.1469802856445,
+            "unit": "ns",
+            "range": "± 5.103775324110044"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AOF)",
+            "value": 1679.6868030841533,
+            "unit": "ns",
+            "range": "± 4.143353377928588"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: None)",
+            "value": 1676.3306209019252,
+            "unit": "ns",
+            "range": "± 1.8840038927657774"
           }
         ]
       }
