@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735407445453,
+  "lastUpdate": 1735407455969,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -3221,6 +3221,54 @@ window.BENCHMARK_DATA = {
             "value": 642.3749979654948,
             "unit": "ns",
             "range": "± 1.7747241653529557"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sharuzzaman@gmail.com",
+            "name": "Sharuzzaman Ahmat Raslan",
+            "username": "sharuzzaman"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9fb9c07ec75da058d97dda026b1b3fd836869d5b",
+          "message": "fix small typo in overview.md (#898)\n\nfix small typo primaruy -> primary in overview.md",
+          "timestamp": "2024-12-28T09:34:16-08:00",
+          "tree_id": "6733c2040c0e4295b8f88975ea2f43bafe2914d8",
+          "url": "https://github.com/microsoft/garnet/commit/9fb9c07ec75da058d97dda026b1b3fd836869d5b"
+        },
+        "date": 1735407452177,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script1(Params: None)",
+            "value": 250.03658917744954,
+            "unit": "ns",
+            "range": "± 0.39449264917385957"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script2(Params: None)",
+            "value": 453.65227811677113,
+            "unit": "ns",
+            "range": "± 1.1431569776213366"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script3(Params: None)",
+            "value": 680.1841990152994,
+            "unit": "ns",
+            "range": "± 3.3640356494619144"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script4(Params: None)",
+            "value": 649.0389623641968,
+            "unit": "ns",
+            "range": "± 1.0632816659033044"
           }
         ]
       }
