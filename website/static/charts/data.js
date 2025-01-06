@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736187399837,
+  "lastUpdate": 1736187418131,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -15173,6 +15173,84 @@ window.BENCHMARK_DATA = {
             "value": 97942.38037109375,
             "unit": "ns",
             "range": "± 1537.2003852849925"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "97080072+msft-paddy14@users.noreply.github.com",
+            "name": "msft-paddy14",
+            "username": "msft-paddy14"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ce21c248f084744e45bbff08d0ecce0a51326cca",
+          "message": "Convert sync over async network handling to async (#835)\n\n* test garnet benchmark\r\n\r\n* Revert \"test garnet benchmark\"\r\n\r\nThis reverts commit 1b3dca6164b72e94e5b95117f3ead72b2104755a.\r\n\r\n* add async socketprocessing\r\n\r\n* resolve conflict\r\n\r\n* fix async socket processing\r\n\r\n* remove bad files\r\n\r\n* fix formatting\r\n\r\n* fix exception handling\r\n\r\n* 1. convert Task->ValueTask for netowkr processing\r\n2. Refactor continuewith to async/await pattern\r\n\r\n* add condition await\r\n\r\n* add bdn test for networking\r\n\r\n* add async in test\r\n\r\n* remove visibility changes for testing\r\n\r\n* add bdn test for networking\r\n\r\n* add async in test\r\n\r\n* fix tests for generic path\r\n\r\n* remove visibility changes for testing\r\n\r\n* fix tests for generic path\r\n\r\n* fix formatting\r\n\r\n* fix formatting\r\n\r\n* rewrite network test\r\n\r\n* rewrite network test\r\n\r\n* set max/min threads\r\n\r\n* set max/min threads\r\n\r\n* fix formatting\r\n\r\n* fix formatting\r\n\r\n* fix naming violations\r\n\r\n* remove dead code\r\n\r\n* formatting\r\n\r\n* replace with do while\r\n\r\n* remove networking test in BDN\r\n\r\n* address formatting comments\r\n\r\n* remove bad include\r\n\r\n* remove more dead code\r\n\r\n* use new NetworkRecive method for benchmark\r\n\r\n* Adjust for async mdoe\r\n\r\n* Change method names for clairty\r\n\r\n* update slowconsume to suync\r\n\r\n* fix formatting\r\n\r\n* remove tls cert copy\r\n\r\n* fix formatting\r\n\r\n* remove whitespace\r\n\r\n* revert names of tests\r\n\r\n* bump version and bdn fixes\r\n\r\n* formatting fixes\r\n\r\n* revert unsafe class changes\r\n\r\n* fix comments\r\n\r\n* segregate TLS and non TLS paths\r\n\r\n* separate based on TLS and no-TLS\r\n\r\n* nit\r\n\r\n* fix bdn\r\n\r\n---------\r\n\r\nCo-authored-by: Vasileios Zois <96085550+vazois@users.noreply.github.com>\r\nCo-authored-by: Badrish Chandramouli <badrishc@microsoft.com>",
+          "timestamp": "2025-01-06T10:09:12-08:00",
+          "tree_id": "56262d4c846f0de6f76f88906847ed57e097d4cf",
+          "url": "https://github.com/microsoft/garnet/commit/ce21c248f084744e45bbff08d0ecce0a51326cca"
+        },
+        "date": 1736187405659,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: ACL)",
+            "value": 114612.21557617188,
+            "unit": "ns",
+            "range": "± 217.957287939686"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 107880.10019155648,
+            "unit": "ns",
+            "range": "± 273.47206462129475"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: ACL)",
+            "value": 96901.20064871652,
+            "unit": "ns",
+            "range": "± 274.9619882665255"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: AOF)",
+            "value": 131935.85298978366,
+            "unit": "ns",
+            "range": "± 442.7403831416877"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 117734.48486328125,
+            "unit": "ns",
+            "range": "± 341.93115065085715"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: AOF)",
+            "value": 107375.28310922477,
+            "unit": "ns",
+            "range": "± 238.94485425282133"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: None)",
+            "value": 126745.56603064903,
+            "unit": "ns",
+            "range": "± 200.02268909324354"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 103909.8406110491,
+            "unit": "ns",
+            "range": "± 184.03065590808487"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: None)",
+            "value": 97497.8254045759,
+            "unit": "ns",
+            "range": "± 195.81829582409148"
           }
         ]
       }
