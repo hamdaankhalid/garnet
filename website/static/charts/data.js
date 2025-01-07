@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736283191153,
+  "lastUpdate": 1736283223481,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -13613,6 +13613,90 @@ window.BENCHMARK_DATA = {
             "value": 147253.03431919642,
             "unit": "ns",
             "range": "± 532.1989474827492"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pon.vijaynirmal@outlook.com",
+            "name": "Vijay Nirmal",
+            "username": "Vijay-Nirmal"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "56394d8002ed37c12a8cfc7a59851f906394453c",
+          "message": "[Compatibility] Added LCS command (#843)\n\n* Added LCS command\r\n\r\n* Format fix\r\n\r\n* Reverted CommandDocsUpdater.cs\r\n\r\n* Fix cluster test\r\n\r\n* Fixed wrong change\r\n\r\n* Moved to constant\r\n\r\n* Review command fixes\r\n\r\n* Fixed review comment\r\n\r\n* Fixed test issue\r\n\r\n---------\r\n\r\nCo-authored-by: Vasileios Zois <96085550+vazois@users.noreply.github.com>\r\nCo-authored-by: Tal Zaccai <talzacc@microsoft.com>",
+          "timestamp": "2025-01-07T13:45:44-07:00",
+          "tree_id": "fe5343629d71a1c258d9da34fc7390bfde6c9504",
+          "url": "https://github.com/microsoft/garnet/commit/56394d8002ed37c12a8cfc7a59851f906394453c"
+        },
+        "date": 1736283210639,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.Get(Params: DSV)",
+            "value": 16618.49388709435,
+            "unit": "ns",
+            "range": "± 16.820514591990193"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.Set(Params: DSV)",
+            "value": 14521.971482496996,
+            "unit": "ns",
+            "range": "± 21.17293427481635"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.MGet(Params: DSV)",
+            "value": 14450.894601004464,
+            "unit": "ns",
+            "range": "± 15.835724792643207"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.MSet(Params: DSV)",
+            "value": 13573.730977376303,
+            "unit": "ns",
+            "range": "± 18.989700593127832"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.CTXNSET(Params: DSV)",
+            "value": 131723.3927408854,
+            "unit": "ns",
+            "range": "± 126.89491988960029"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.Get(Params: None)",
+            "value": 19965.628153483074,
+            "unit": "ns",
+            "range": "± 98.14256161735709"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.Set(Params: None)",
+            "value": 17924.53824556791,
+            "unit": "ns",
+            "range": "± 31.849932456151734"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.MGet(Params: None)",
+            "value": 15783.942159016928,
+            "unit": "ns",
+            "range": "± 107.88861884268277"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.MSet(Params: None)",
+            "value": 14810.475049700055,
+            "unit": "ns",
+            "range": "± 31.53214758172844"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.CTXNSET(Params: None)",
+            "value": 141900.67889873797,
+            "unit": "ns",
+            "range": "± 181.23989745316317"
           }
         ]
       }
