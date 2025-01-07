@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736283024287,
+  "lastUpdate": 1736283026476,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -11261,6 +11261,84 @@ window.BENCHMARK_DATA = {
             "value": 127603.73197428386,
             "unit": "ns",
             "range": "± 785.105846835396"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pon.vijaynirmal@outlook.com",
+            "name": "Vijay Nirmal",
+            "username": "Vijay-Nirmal"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "56394d8002ed37c12a8cfc7a59851f906394453c",
+          "message": "[Compatibility] Added LCS command (#843)\n\n* Added LCS command\r\n\r\n* Format fix\r\n\r\n* Reverted CommandDocsUpdater.cs\r\n\r\n* Fix cluster test\r\n\r\n* Fixed wrong change\r\n\r\n* Moved to constant\r\n\r\n* Review command fixes\r\n\r\n* Fixed review comment\r\n\r\n* Fixed test issue\r\n\r\n---------\r\n\r\nCo-authored-by: Vasileios Zois <96085550+vazois@users.noreply.github.com>\r\nCo-authored-by: Tal Zaccai <talzacc@microsoft.com>",
+          "timestamp": "2025-01-07T13:45:44-07:00",
+          "tree_id": "fe5343629d71a1c258d9da34fc7390bfde6c9504",
+          "url": "https://github.com/microsoft/garnet/commit/56394d8002ed37c12a8cfc7a59851f906394453c"
+        },
+        "date": 1736283021696,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: ACL)",
+            "value": 149993.1001915565,
+            "unit": "ns",
+            "range": "± 660.5266795550828"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 135101.41095377604,
+            "unit": "ns",
+            "range": "± 1345.4472507263288"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: ACL)",
+            "value": 124481.63100961539,
+            "unit": "ns",
+            "range": "± 826.9311477794135"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: AOF)",
+            "value": 168736.87081473213,
+            "unit": "ns",
+            "range": "± 990.5845470126443"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 153884.30576985676,
+            "unit": "ns",
+            "range": "± 863.862569062072"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: AOF)",
+            "value": 143750.58779296876,
+            "unit": "ns",
+            "range": "± 1918.7380118883323"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: None)",
+            "value": 150138.34069010417,
+            "unit": "ns",
+            "range": "± 529.3498518279632"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 137229.85366210938,
+            "unit": "ns",
+            "range": "± 1414.7943628186017"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: None)",
+            "value": 126229.35097249348,
+            "unit": "ns",
+            "range": "± 399.5516561388261"
           }
         ]
       }
