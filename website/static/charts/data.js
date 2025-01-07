@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736283026476,
+  "lastUpdate": 1736283034122,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -9185,6 +9185,54 @@ window.BENCHMARK_DATA = {
             "value": 30352.6127406529,
             "unit": "ns",
             "range": "± 246.38784602441612"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pon.vijaynirmal@outlook.com",
+            "name": "Vijay Nirmal",
+            "username": "Vijay-Nirmal"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "56394d8002ed37c12a8cfc7a59851f906394453c",
+          "message": "[Compatibility] Added LCS command (#843)\n\n* Added LCS command\r\n\r\n* Format fix\r\n\r\n* Reverted CommandDocsUpdater.cs\r\n\r\n* Fix cluster test\r\n\r\n* Fixed wrong change\r\n\r\n* Moved to constant\r\n\r\n* Review command fixes\r\n\r\n* Fixed review comment\r\n\r\n* Fixed test issue\r\n\r\n---------\r\n\r\nCo-authored-by: Vasileios Zois <96085550+vazois@users.noreply.github.com>\r\nCo-authored-by: Tal Zaccai <talzacc@microsoft.com>",
+          "timestamp": "2025-01-07T13:45:44-07:00",
+          "tree_id": "fe5343629d71a1c258d9da34fc7390bfde6c9504",
+          "url": "https://github.com/microsoft/garnet/commit/56394d8002ed37c12a8cfc7a59851f906394453c"
+        },
+        "date": 1736283024525,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 35130.9579031808,
+            "unit": "ns",
+            "range": "± 36.825373207501855"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 35273.45406668527,
+            "unit": "ns",
+            "range": "± 106.83336200993601"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 32243.893432617188,
+            "unit": "ns",
+            "range": "± 310.08479890195207"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 30037.77048746745,
+            "unit": "ns",
+            "range": "± 108.49562627362924"
           }
         ]
       }
