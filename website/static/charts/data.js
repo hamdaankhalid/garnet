@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736376103593,
+  "lastUpdate": 1736376112923,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -9671,6 +9671,54 @@ window.BENCHMARK_DATA = {
             "value": 30037.77048746745,
             "unit": "ns",
             "range": "± 108.49562627362924"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrishc@microsoft.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "af9cf0eb5d1bd22036ec1fb00be71f860fadc71d",
+          "message": "Configure min and max IO completion threads (#904)\n\n* Configure min and max IO completion threads separately from min and max threads (in the ThreadPool). This is needed as some scenarios may limit number of thread pool threads but require a larger number of IO completion threads.\r\n\r\n* nit",
+          "timestamp": "2025-01-08T14:36:36-08:00",
+          "tree_id": "36bff0cf9f57a2e71c25d20c435682c6961a21db",
+          "url": "https://github.com/microsoft/garnet/commit/af9cf0eb5d1bd22036ec1fb00be71f860fadc71d"
+        },
+        "date": 1736376101154,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 34553.358677455355,
+            "unit": "ns",
+            "range": "± 61.81262755743221"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 35779.15696364183,
+            "unit": "ns",
+            "range": "± 37.398709357281625"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 30836.241032527043,
+            "unit": "ns",
+            "range": "± 22.461642261705368"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 30871.488647460938,
+            "unit": "ns",
+            "range": "± 48.38692683812301"
           }
         ]
       }
