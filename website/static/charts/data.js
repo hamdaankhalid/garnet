@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736376051601,
+  "lastUpdate": 1736376073321,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -11651,6 +11651,84 @@ window.BENCHMARK_DATA = {
             "value": 126229.35097249348,
             "unit": "ns",
             "range": "± 399.5516561388261"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrishc@microsoft.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "af9cf0eb5d1bd22036ec1fb00be71f860fadc71d",
+          "message": "Configure min and max IO completion threads (#904)\n\n* Configure min and max IO completion threads separately from min and max threads (in the ThreadPool). This is needed as some scenarios may limit number of thread pool threads but require a larger number of IO completion threads.\r\n\r\n* nit",
+          "timestamp": "2025-01-08T14:36:36-08:00",
+          "tree_id": "36bff0cf9f57a2e71c25d20c435682c6961a21db",
+          "url": "https://github.com/microsoft/garnet/commit/af9cf0eb5d1bd22036ec1fb00be71f860fadc71d"
+        },
+        "date": 1736376069580,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: ACL)",
+            "value": 151151.59535435267,
+            "unit": "ns",
+            "range": "± 857.2992222688067"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 136084.2752278646,
+            "unit": "ns",
+            "range": "± 1117.208817252666"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: ACL)",
+            "value": 131462.18559919085,
+            "unit": "ns",
+            "range": "± 812.9782678967815"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: AOF)",
+            "value": 166816.60196126302,
+            "unit": "ns",
+            "range": "± 1190.3212311918305"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 154928.077671596,
+            "unit": "ns",
+            "range": "± 666.436294728213"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: AOF)",
+            "value": 145923.9303448017,
+            "unit": "ns",
+            "range": "± 848.1435977933634"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: None)",
+            "value": 148350.8502034505,
+            "unit": "ns",
+            "range": "± 1292.2617216361625"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 136288.40799153646,
+            "unit": "ns",
+            "range": "± 880.0031478282267"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: None)",
+            "value": 127491.87881234977,
+            "unit": "ns",
+            "range": "± 488.07044404789514"
           }
         ]
       }
