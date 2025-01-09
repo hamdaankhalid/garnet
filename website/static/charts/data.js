@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736461670049,
+  "lastUpdate": 1736461711313,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -2429,6 +2429,54 @@ window.BENCHMARK_DATA = {
             "value": 31990.912848839394,
             "unit": "ns",
             "range": "± 77.6818933439769"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "96085550+vazois@users.noreply.github.com",
+            "name": "Vasileios Zois",
+            "username": "vazois"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e9d79068491ae795bb0ba2597390b5bd3704c7e4",
+          "message": "Skip Interlocked.Exchange and FlushConfig when no update detected (#905)\n\n* skip Interlocked.Exchange and FlushConfig when no update detected on merge\r\n\r\n* special case of zero epoch necessitates tracking of explicit slot update\r\n\r\n* version-bump-1.0.50\r\n\r\n* ensure src is owner\r\n\r\n* update migrateslotwalk test",
+          "timestamp": "2025-01-09T14:25:10-08:00",
+          "tree_id": "e6af8e8ae3c21ec6cb0aa38d9a483d37f3e588b6",
+          "url": "https://github.com/microsoft/garnet/commit/e9d79068491ae795bb0ba2597390b5bd3704c7e4"
+        },
+        "date": 1736461707027,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 37179.49669236403,
+            "unit": "ns",
+            "range": "± 225.92384031537688"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 37732.234451293945,
+            "unit": "ns",
+            "range": "± 22.96979899357066"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 32499.574192592077,
+            "unit": "ns",
+            "range": "± 151.81013278206441"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 32016.224442545572,
+            "unit": "ns",
+            "range": "± 227.70520206450527"
           }
         ]
       }
