@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736461759960,
+  "lastUpdate": 1736461812528,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -12089,6 +12089,84 @@ window.BENCHMARK_DATA = {
             "value": 127491.87881234977,
             "unit": "ns",
             "range": "± 488.07044404789514"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "96085550+vazois@users.noreply.github.com",
+            "name": "Vasileios Zois",
+            "username": "vazois"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e9d79068491ae795bb0ba2597390b5bd3704c7e4",
+          "message": "Skip Interlocked.Exchange and FlushConfig when no update detected (#905)\n\n* skip Interlocked.Exchange and FlushConfig when no update detected on merge\r\n\r\n* special case of zero epoch necessitates tracking of explicit slot update\r\n\r\n* version-bump-1.0.50\r\n\r\n* ensure src is owner\r\n\r\n* update migrateslotwalk test",
+          "timestamp": "2025-01-09T14:25:10-08:00",
+          "tree_id": "e6af8e8ae3c21ec6cb0aa38d9a483d37f3e588b6",
+          "url": "https://github.com/microsoft/garnet/commit/e9d79068491ae795bb0ba2597390b5bd3704c7e4"
+        },
+        "date": 1736461807784,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: ACL)",
+            "value": 152810.61436360676,
+            "unit": "ns",
+            "range": "± 773.8052556195659"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 137347.98413085938,
+            "unit": "ns",
+            "range": "± 320.3944513898284"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: ACL)",
+            "value": 126515.43845778245,
+            "unit": "ns",
+            "range": "± 448.5864456786826"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: AOF)",
+            "value": 166179.57091471355,
+            "unit": "ns",
+            "range": "± 883.8041627243293"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 154320.71676870494,
+            "unit": "ns",
+            "range": "± 440.0946878212106"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: AOF)",
+            "value": 147663.17691476006,
+            "unit": "ns",
+            "range": "± 1336.7428152785183"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: None)",
+            "value": 152513.87280273438,
+            "unit": "ns",
+            "range": "± 1071.4922923674972"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 137925.48655348556,
+            "unit": "ns",
+            "range": "± 1072.3610025528862"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: None)",
+            "value": 127509.58483886719,
+            "unit": "ns",
+            "range": "± 712.401550182387"
           }
         ]
       }
