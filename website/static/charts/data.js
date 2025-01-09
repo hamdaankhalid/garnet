@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736461891350,
+  "lastUpdate": 1736461913428,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -43141,6 +43141,90 @@ window.BENCHMARK_DATA = {
             "value": 323.22439511617023,
             "unit": "ns",
             "range": "± 1.1408015759310097"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "96085550+vazois@users.noreply.github.com",
+            "name": "Vasileios Zois",
+            "username": "vazois"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e9d79068491ae795bb0ba2597390b5bd3704c7e4",
+          "message": "Skip Interlocked.Exchange and FlushConfig when no update detected (#905)\n\n* skip Interlocked.Exchange and FlushConfig when no update detected on merge\r\n\r\n* special case of zero epoch necessitates tracking of explicit slot update\r\n\r\n* version-bump-1.0.50\r\n\r\n* ensure src is owner\r\n\r\n* update migrateslotwalk test",
+          "timestamp": "2025-01-09T14:25:10-08:00",
+          "tree_id": "e6af8e8ae3c21ec6cb0aa38d9a483d37f3e588b6",
+          "url": "https://github.com/microsoft/garnet/commit/e9d79068491ae795bb0ba2597390b5bd3704c7e4"
+        },
+        "date": 1736461903086,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Set(Params: None)",
+            "value": 205.40434213785025,
+            "unit": "ns",
+            "range": "± 0.38755580462743255"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetEx(Params: None)",
+            "value": 287.314776579539,
+            "unit": "ns",
+            "range": "± 1.6501765797080925"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetNx(Params: None)",
+            "value": 251.7639478047689,
+            "unit": "ns",
+            "range": "± 0.2862438049418573"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetXx(Params: None)",
+            "value": 269.4115161895752,
+            "unit": "ns",
+            "range": "± 0.5180185910841101"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.GetFound(Params: None)",
+            "value": 224.78138300088736,
+            "unit": "ns",
+            "range": "± 0.20823848798733513"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.GetNotFound(Params: None)",
+            "value": 171.03703362601144,
+            "unit": "ns",
+            "range": "± 0.26011629144741333"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Increment(Params: None)",
+            "value": 287.96933037894115,
+            "unit": "ns",
+            "range": "± 0.45963905955520923"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Decrement(Params: None)",
+            "value": 298.51402282714844,
+            "unit": "ns",
+            "range": "± 1.553406302017295"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.IncrementBy(Params: None)",
+            "value": 329.64391708374023,
+            "unit": "ns",
+            "range": "± 1.9547802730202408"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.DecrementBy(Params: None)",
+            "value": 347.8090899331229,
+            "unit": "ns",
+            "range": "± 0.5331739692359377"
           }
         ]
       }
