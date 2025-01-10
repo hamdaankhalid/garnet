@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736534587149,
+  "lastUpdate": 1736534628968,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -4001,6 +4001,54 @@ window.BENCHMARK_DATA = {
             "value": 641.8802328109741,
             "unit": "ns",
             "range": "± 1.6067011717509427"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hkhalid@microsoft.com",
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalidmsft"
+          },
+          "committer": {
+            "email": "hkhalid@microsoft.com",
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalidmsft"
+          },
+          "distinct": true,
+          "id": "7138f2986ce12e60b5ebb82016218ce4e01b1640",
+          "message": "add feedback",
+          "timestamp": "2025-01-10T10:24:59-08:00",
+          "tree_id": "f7a4a6c7561d70f664639787d90adb53fd3a5542",
+          "url": "https://github.com/microsoft/garnet/commit/7138f2986ce12e60b5ebb82016218ce4e01b1640"
+        },
+        "date": 1736534624011,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script1(Params: None)",
+            "value": 254.44167636235554,
+            "unit": "ns",
+            "range": "± 1.1360637981606416"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script2(Params: None)",
+            "value": 484.68531239827473,
+            "unit": "ns",
+            "range": "± 2.1415748916490602"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script3(Params: None)",
+            "value": 697.4086013793946,
+            "unit": "ns",
+            "range": "± 1.9211991422146093"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script4(Params: None)",
+            "value": 648.8030140558878,
+            "unit": "ns",
+            "range": "± 1.38117617950908"
           }
         ]
       }
