@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736480654968,
+  "lastUpdate": 1736534587149,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -45379,6 +45379,36 @@ window.BENCHMARK_DATA = {
             "value": 95.00012009342511,
             "unit": "ns",
             "range": "± 0.20380262918741018"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hkhalid@microsoft.com",
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalidmsft"
+          },
+          "committer": {
+            "email": "hkhalid@microsoft.com",
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalidmsft"
+          },
+          "distinct": true,
+          "id": "7138f2986ce12e60b5ebb82016218ce4e01b1640",
+          "message": "add feedback",
+          "timestamp": "2025-01-10T10:24:59-08:00",
+          "tree_id": "f7a4a6c7561d70f664639787d90adb53fd3a5542",
+          "url": "https://github.com/microsoft/garnet/commit/7138f2986ce12e60b5ebb82016218ce4e01b1640"
+        },
+        "date": 1736534583277,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Network.BasicOperations.InlinePing(Params: None)",
+            "value": 91.44811704953511,
+            "unit": "ns",
+            "range": "± 0.6114211567379341"
           }
         ]
       }
