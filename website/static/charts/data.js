@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736462799047,
+  "lastUpdate": 1736479499839,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -43225,6 +43225,36 @@ window.BENCHMARK_DATA = {
             "value": 93.55826428303352,
             "unit": "ns",
             "range": "± 0.1507884399086219"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "talzacc@microsoft.com",
+            "name": "Tal Zaccai",
+            "username": "TalZaccai"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e7422df8e0cb87bc727b08f4f25c3a24249b00d1",
+          "message": "Returning \"Friendly IDs\" for Custom Commands / Custom Types (#906)\n\n* Converting custom command IDs to \"friendly IDs\" when returning to client\r\n\r\n* Some simplifications\r\n\r\n* Simplified ExpandableMap to support only ascending IDs + Added test for multiple object registrations\r\n\r\n* small format",
+          "timestamp": "2025-01-09T20:22:16-07:00",
+          "tree_id": "c12abd5d5f4898d84e4371ad8635dcb85669caae",
+          "url": "https://github.com/microsoft/garnet/commit/e7422df8e0cb87bc727b08f4f25c3a24249b00d1"
+        },
+        "date": 1736479495366,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Network.BasicOperations.InlinePing(Params: None)",
+            "value": 95.00012009342511,
+            "unit": "ns",
+            "range": "± 0.20380262918741018"
           }
         ]
       }
