@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736553476353,
+  "lastUpdate": 1736553560980,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -47251,6 +47251,90 @@ window.BENCHMARK_DATA = {
             "value": 350.23303713117326,
             "unit": "ns",
             "range": "± 0.5218928607758457"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "42720645+hamdaankhalid@users.noreply.github.com",
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalid"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae13046b4d747624724f465f05c0021e3335e8dc",
+          "message": "Temp fix Tsavorite CI (#909)\n\nCo-authored-by: Hamdaan Khalid <hkhalid@microsoft.com>",
+          "timestamp": "2025-01-10T15:51:23-08:00",
+          "tree_id": "68a6294545c462e16ed54ce0cf4f05259e518c92",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/ae13046b4d747624724f465f05c0021e3335e8dc"
+        },
+        "date": 1736553544116,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Set(Params: None)",
+            "value": 204.6740929285685,
+            "unit": "ns",
+            "range": "± 0.4024951178334924"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetEx(Params: None)",
+            "value": 284.9914477421687,
+            "unit": "ns",
+            "range": "± 0.7929187010389508"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetNx(Params: None)",
+            "value": 256.91063563028973,
+            "unit": "ns",
+            "range": "± 0.6767064459026584"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetXx(Params: None)",
+            "value": 275.15614373343334,
+            "unit": "ns",
+            "range": "± 0.4152240500862839"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.GetFound(Params: None)",
+            "value": 220.3467865784963,
+            "unit": "ns",
+            "range": "± 0.16990843411560644"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.GetNotFound(Params: None)",
+            "value": 177.9250661532084,
+            "unit": "ns",
+            "range": "± 0.21732317223101005"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Increment(Params: None)",
+            "value": 299.33625629970004,
+            "unit": "ns",
+            "range": "± 0.2926106886584205"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Decrement(Params: None)",
+            "value": 295.87485109056746,
+            "unit": "ns",
+            "range": "± 0.7376950887332032"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.IncrementBy(Params: None)",
+            "value": 342.0915331159319,
+            "unit": "ns",
+            "range": "± 0.4090699237177063"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.DecrementBy(Params: None)",
+            "value": 331.2039375305176,
+            "unit": "ns",
+            "range": "± 0.49248739325056456"
           }
         ]
       }
