@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736479645505,
+  "lastUpdate": 1736479652142,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -6353,6 +6353,90 @@ window.BENCHMARK_DATA = {
             "value": 132277.94830729166,
             "unit": "ns",
             "range": "± 811.4843908665911"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "talzacc@microsoft.com",
+            "name": "Tal Zaccai",
+            "username": "TalZaccai"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e7422df8e0cb87bc727b08f4f25c3a24249b00d1",
+          "message": "Returning \"Friendly IDs\" for Custom Commands / Custom Types (#906)\n\n* Converting custom command IDs to \"friendly IDs\" when returning to client\r\n\r\n* Some simplifications\r\n\r\n* Simplified ExpandableMap to support only ascending IDs + Added test for multiple object registrations\r\n\r\n* small format",
+          "timestamp": "2025-01-09T20:22:16-07:00",
+          "tree_id": "c12abd5d5f4898d84e4371ad8635dcb85669caae",
+          "url": "https://github.com/microsoft/garnet/commit/e7422df8e0cb87bc727b08f4f25c3a24249b00d1"
+        },
+        "date": 1736479647636,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.Get(Params: DSV)",
+            "value": 16789.449455769856,
+            "unit": "ns",
+            "range": "± 165.49903699611693"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.Set(Params: DSV)",
+            "value": 16941.380462646484,
+            "unit": "ns",
+            "range": "± 13.931601208723276"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.MGet(Params: DSV)",
+            "value": 15312.317665608723,
+            "unit": "ns",
+            "range": "± 82.56299396620052"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.MSet(Params: DSV)",
+            "value": 14564.139923095703,
+            "unit": "ns",
+            "range": "± 37.03654047762628"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.CTXNSET(Params: DSV)",
+            "value": 123241.64950796273,
+            "unit": "ns",
+            "range": "± 209.3944078654003"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.Get(Params: None)",
+            "value": 20364.73492079515,
+            "unit": "ns",
+            "range": "± 41.95444553319106"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.Set(Params: None)",
+            "value": 20417.49430847168,
+            "unit": "ns",
+            "range": "± 193.05039965931005"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.MGet(Params: None)",
+            "value": 16245.493721516927,
+            "unit": "ns",
+            "range": "± 109.29384103660698"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.MSet(Params: None)",
+            "value": 15181.177455647787,
+            "unit": "ns",
+            "range": "± 84.08729013485916"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterOperations.CTXNSET(Params: None)",
+            "value": 131169.17474834734,
+            "unit": "ns",
+            "range": "± 289.020978468712"
           }
         ]
       }
