@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736479585438,
+  "lastUpdate": 1736479615367,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -12527,6 +12527,84 @@ window.BENCHMARK_DATA = {
             "value": 127509.58483886719,
             "unit": "ns",
             "range": "± 712.401550182387"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "talzacc@microsoft.com",
+            "name": "Tal Zaccai",
+            "username": "TalZaccai"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e7422df8e0cb87bc727b08f4f25c3a24249b00d1",
+          "message": "Returning \"Friendly IDs\" for Custom Commands / Custom Types (#906)\n\n* Converting custom command IDs to \"friendly IDs\" when returning to client\r\n\r\n* Some simplifications\r\n\r\n* Simplified ExpandableMap to support only ascending IDs + Added test for multiple object registrations\r\n\r\n* small format",
+          "timestamp": "2025-01-09T20:22:16-07:00",
+          "tree_id": "c12abd5d5f4898d84e4371ad8635dcb85669caae",
+          "url": "https://github.com/microsoft/garnet/commit/e7422df8e0cb87bc727b08f4f25c3a24249b00d1"
+        },
+        "date": 1736479610757,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: ACL)",
+            "value": 152655.47659737724,
+            "unit": "ns",
+            "range": "± 869.9234692752842"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 135687.89624023438,
+            "unit": "ns",
+            "range": "± 1257.157298552822"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: ACL)",
+            "value": 135027.88607584636,
+            "unit": "ns",
+            "range": "± 976.1949281776929"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: AOF)",
+            "value": 171496.96568080358,
+            "unit": "ns",
+            "range": "± 429.32542589744884"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 153912.27962239584,
+            "unit": "ns",
+            "range": "± 1018.8820379595716"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: AOF)",
+            "value": 144597.11708984376,
+            "unit": "ns",
+            "range": "± 743.1394068236436"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.ZAddRem(Params: None)",
+            "value": 148159.1831542969,
+            "unit": "ns",
+            "range": "± 647.6395976743246"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 143389.89840932994,
+            "unit": "ns",
+            "range": "± 316.71839586844965"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: None)",
+            "value": 130733.46651785714,
+            "unit": "ns",
+            "range": "± 732.788377715205"
           }
         ]
       }
