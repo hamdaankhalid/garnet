@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737788701911,
+  "lastUpdate": 1737788767887,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -12029,6 +12029,54 @@ window.BENCHMARK_DATA = {
             "value": 29789.874703543526,
             "unit": "ns",
             "range": "± 108.5198562182462"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "42720645+hamdaankhalid@users.noreply.github.com",
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalid"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0cd87b005d10f1b759862c6ff934fc1d57cd66bb",
+          "message": "BUGFIX: Fix setting srcRecordInfo during interleaving of checkpointing and RMW (#956)\n\n* Fix setting srcRecordInfo during checkpointing\r\n\r\n* Also for internal upsert\r\n\r\n---------\r\n\r\nCo-authored-by: Hamdaan Khalid <hkhalid@microsoft.com>",
+          "timestamp": "2025-01-24T21:45:27-07:00",
+          "tree_id": "d5780a7190b433e02e9bda12e8df80f69569c0bd",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/0cd87b005d10f1b759862c6ff934fc1d57cd66bb"
+        },
+        "date": 1737788760328,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 35692.23109654018,
+            "unit": "ns",
+            "range": "± 40.50489838972942"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 36011.87090192522,
+            "unit": "ns",
+            "range": "± 46.56338402076107"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 31083.106892903645,
+            "unit": "ns",
+            "range": "± 183.75716049759617"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 30721.636149088543,
+            "unit": "ns",
+            "range": "± 42.09322151603886"
           }
         ]
       }
