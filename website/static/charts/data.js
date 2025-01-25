@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737788459987,
+  "lastUpdate": 1737788480181,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -1343,6 +1343,48 @@ window.BENCHMARK_DATA = {
             "value": 1683.9421792348226,
             "unit": "ns",
             "range": "± 8.241608847920691"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "42720645+hamdaankhalid@users.noreply.github.com",
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalid"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0cd87b005d10f1b759862c6ff934fc1d57cd66bb",
+          "message": "BUGFIX: Fix setting srcRecordInfo during interleaving of checkpointing and RMW (#956)\n\n* Fix setting srcRecordInfo during checkpointing\r\n\r\n* Also for internal upsert\r\n\r\n---------\r\n\r\nCo-authored-by: Hamdaan Khalid <hkhalid@microsoft.com>",
+          "timestamp": "2025-01-24T21:45:27-07:00",
+          "tree_id": "d5780a7190b433e02e9bda12e8df80f69569c0bd",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/0cd87b005d10f1b759862c6ff934fc1d57cd66bb"
+        },
+        "date": 1737788476528,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: ACL)",
+            "value": 1820.7037497202555,
+            "unit": "ns",
+            "range": "± 13.387165841529674"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AOF)",
+            "value": 1812.1212152753558,
+            "unit": "ns",
+            "range": "± 10.283382700117516"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: None)",
+            "value": 1780.7745288848878,
+            "unit": "ns",
+            "range": "± 11.569894635931318"
           }
         ]
       }
