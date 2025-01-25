@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737789130106,
+  "lastUpdate": 1737789141347,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -52955,6 +52955,102 @@ window.BENCHMARK_DATA = {
             "value": 112973.78540039062,
             "unit": "ns",
             "range": "± 94.76445662513855"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "42720645+hamdaankhalid@users.noreply.github.com",
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalid"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0cd87b005d10f1b759862c6ff934fc1d57cd66bb",
+          "message": "BUGFIX: Fix setting srcRecordInfo during interleaving of checkpointing and RMW (#956)\n\n* Fix setting srcRecordInfo during checkpointing\r\n\r\n* Also for internal upsert\r\n\r\n---------\r\n\r\nCo-authored-by: Hamdaan Khalid <hkhalid@microsoft.com>",
+          "timestamp": "2025-01-24T21:45:27-07:00",
+          "tree_id": "d5780a7190b433e02e9bda12e8df80f69569c0bd",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/0cd87b005d10f1b759862c6ff934fc1d57cd66bb"
+        },
+        "date": 1737789125670,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: ACL)",
+            "value": 62772.49333308293,
+            "unit": "ns",
+            "range": "± 66.57202744356773"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: ACL)",
+            "value": 223204.28748497597,
+            "unit": "ns",
+            "range": "± 491.2703292806895"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: ACL)",
+            "value": 132595.51304408483,
+            "unit": "ns",
+            "range": "± 140.43257734438077"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: ACL)",
+            "value": 117512.33317057292,
+            "unit": "ns",
+            "range": "± 66.33593346817216"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: AOF)",
+            "value": 63335.69684709822,
+            "unit": "ns",
+            "range": "± 71.36885450348844"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: AOF)",
+            "value": 230559.05517578125,
+            "unit": "ns",
+            "range": "± 794.4708675047823"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: AOF)",
+            "value": 146641.9474283854,
+            "unit": "ns",
+            "range": "± 407.41712905912465"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: AOF)",
+            "value": 143440.49560546875,
+            "unit": "ns",
+            "range": "± 326.1017022399318"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: None)",
+            "value": 65200.0732421875,
+            "unit": "ns",
+            "range": "± 56.533971071069594"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: None)",
+            "value": 218783.5414341518,
+            "unit": "ns",
+            "range": "± 289.8175587182699"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: None)",
+            "value": 132802.3152669271,
+            "unit": "ns",
+            "range": "± 204.98819041051556"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: None)",
+            "value": 117719.14813701923,
+            "unit": "ns",
+            "range": "± 69.56458106118069"
           }
         ]
       }
