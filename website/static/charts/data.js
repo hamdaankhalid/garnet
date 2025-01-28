@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738050925743,
+  "lastUpdate": 1738050939813,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -55463,6 +55463,102 @@ window.BENCHMARK_DATA = {
             "value": 117719.14813701923,
             "unit": "ns",
             "range": "± 69.56458106118069"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pon.vijaynirmal@outlook.com",
+            "name": "Vijay Nirmal",
+            "username": "Vijay-Nirmal"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "762a9d78808ebceca86451d6e675d024b843c82b",
+          "message": "[Compatibility] Added CLIENT UNBLOCK command (#886)\n\n* Added CLIENT UNBLOCK command\r\n\r\n* Fixed build issue\r\n\r\n* Fixed review commands\r\n\r\n* Format fix\r\n\r\n* Fix code format\r\n\r\n* Fixed build issue after merge\r\n\r\n* Fixed review comments\r\n\r\n* Removed addition catch clause\r\n\r\n---------\r\n\r\nCo-authored-by: Tal Zaccai <talzacc@microsoft.com>",
+          "timestamp": "2025-01-27T18:32:01-07:00",
+          "tree_id": "19a011f78a1ef079a455f686f5554f007ef0800f",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/762a9d78808ebceca86451d6e675d024b843c82b"
+        },
+        "date": 1738050926879,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: ACL)",
+            "value": 60203.223092215405,
+            "unit": "ns",
+            "range": "± 122.42300973362025"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: ACL)",
+            "value": 207653.21533203125,
+            "unit": "ns",
+            "range": "± 822.293148516003"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: ACL)",
+            "value": 130510.57826450893,
+            "unit": "ns",
+            "range": "± 172.59317665486"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: ACL)",
+            "value": 112777.26033528645,
+            "unit": "ns",
+            "range": "± 113.96154460473733"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: AOF)",
+            "value": 55989.66587611607,
+            "unit": "ns",
+            "range": "± 58.03680770246876"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: AOF)",
+            "value": 217349.6240234375,
+            "unit": "ns",
+            "range": "± 549.3509663142461"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: AOF)",
+            "value": 141472.49267578125,
+            "unit": "ns",
+            "range": "± 307.8708737454562"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: AOF)",
+            "value": 137138.23523888222,
+            "unit": "ns",
+            "range": "± 318.2917421326134"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: None)",
+            "value": 60273.653564453125,
+            "unit": "ns",
+            "range": "± 58.57668872575919"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: None)",
+            "value": 206379.7127278646,
+            "unit": "ns",
+            "range": "± 373.3145404626187"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: None)",
+            "value": 130309.66448102679,
+            "unit": "ns",
+            "range": "± 142.34705623671996"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: None)",
+            "value": 112120.05964006696,
+            "unit": "ns",
+            "range": "± 85.96943914382027"
           }
         ]
       }
