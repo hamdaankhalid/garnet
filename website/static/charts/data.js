@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738050461614,
+  "lastUpdate": 1738050473155,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -58821,6 +58821,48 @@ window.BENCHMARK_DATA = {
             "value": 9123.111775716146,
             "unit": "ns",
             "range": "± 29.798349494142204"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pon.vijaynirmal@outlook.com",
+            "name": "Vijay Nirmal",
+            "username": "Vijay-Nirmal"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "762a9d78808ebceca86451d6e675d024b843c82b",
+          "message": "[Compatibility] Added CLIENT UNBLOCK command (#886)\n\n* Added CLIENT UNBLOCK command\r\n\r\n* Fixed build issue\r\n\r\n* Fixed review commands\r\n\r\n* Format fix\r\n\r\n* Fix code format\r\n\r\n* Fixed build issue after merge\r\n\r\n* Fixed review comments\r\n\r\n* Removed addition catch clause\r\n\r\n---------\r\n\r\nCo-authored-by: Tal Zaccai <talzacc@microsoft.com>",
+          "timestamp": "2025-01-27T18:32:01-07:00",
+          "tree_id": "19a011f78a1ef079a455f686f5554f007ef0800f",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/762a9d78808ebceca86451d6e675d024b843c82b"
+        },
+        "date": 1738050456271,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: ACL)",
+            "value": 9080.221775599888,
+            "unit": "ns",
+            "range": "± 19.692296101570914"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AOF)",
+            "value": 8968.162892659506,
+            "unit": "ns",
+            "range": "± 12.650630107113487"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: None)",
+            "value": 8955.64481295072,
+            "unit": "ns",
+            "range": "± 11.80617695812559"
           }
         ]
       }
