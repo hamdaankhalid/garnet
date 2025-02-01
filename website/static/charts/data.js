@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738368716364,
+  "lastUpdate": 1738368726290,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -61465,6 +61465,48 @@ window.BENCHMARK_DATA = {
             "value": 13206.424306233725,
             "unit": "ns",
             "range": "± 64.1437786113469"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "darrenge@microsoft.com",
+            "name": "darrenge",
+            "username": "darrenge"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e3da613ef2df405ba3ac1a8d84d7c940007accc3",
+          "message": "Updated Lua BDN expected Allocated bytes for a few settings. (#984)",
+          "timestamp": "2025-01-30T17:56:16-08:00",
+          "tree_id": "53b77e9e81e1123cf133f1170532cf7e7df268fe",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/e3da613ef2df405ba3ac1a8d84d7c940007accc3"
+        },
+        "date": 1738368722209,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: ACL)",
+            "value": 13324.3375516619,
+            "unit": "ns",
+            "range": "± 71.49421110296728"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AOF)",
+            "value": 13147.863130841937,
+            "unit": "ns",
+            "range": "± 52.7488181255212"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: None)",
+            "value": 13235.825557454427,
+            "unit": "ns",
+            "range": "± 87.35050240414205"
           }
         ]
       }
