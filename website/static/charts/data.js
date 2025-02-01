@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738369124059,
+  "lastUpdate": 1738369188518,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -60307,6 +60307,90 @@ window.BENCHMARK_DATA = {
             "value": 345.9369402665358,
             "unit": "ns",
             "range": "± 0.5239443314673351"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "darrenge@microsoft.com",
+            "name": "darrenge",
+            "username": "darrenge"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e3da613ef2df405ba3ac1a8d84d7c940007accc3",
+          "message": "Updated Lua BDN expected Allocated bytes for a few settings. (#984)",
+          "timestamp": "2025-01-30T17:56:16-08:00",
+          "tree_id": "53b77e9e81e1123cf133f1170532cf7e7df268fe",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/e3da613ef2df405ba3ac1a8d84d7c940007accc3"
+        },
+        "date": 1738369172574,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Set(Params: None)",
+            "value": 207.70684205568753,
+            "unit": "ns",
+            "range": "± 0.46218409413532324"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetEx(Params: None)",
+            "value": 282.5234603881836,
+            "unit": "ns",
+            "range": "± 1.2167653571115107"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetNx(Params: None)",
+            "value": 284.81524671827043,
+            "unit": "ns",
+            "range": "± 0.5094345041880914"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetXx(Params: None)",
+            "value": 315.7438482557024,
+            "unit": "ns",
+            "range": "± 0.6299941455301722"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.GetFound(Params: None)",
+            "value": 226.12540483474731,
+            "unit": "ns",
+            "range": "± 0.49424109011325357"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.GetNotFound(Params: None)",
+            "value": 174.42471640450614,
+            "unit": "ns",
+            "range": "± 0.33496250325337956"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Increment(Params: None)",
+            "value": 306.58958141620343,
+            "unit": "ns",
+            "range": "± 0.33110340357039447"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Decrement(Params: None)",
+            "value": 319.0776995250157,
+            "unit": "ns",
+            "range": "± 0.6005606244160944"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.IncrementBy(Params: None)",
+            "value": 348.7711588541667,
+            "unit": "ns",
+            "range": "± 1.119531718128063"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.DecrementBy(Params: None)",
+            "value": 366.98499747685025,
+            "unit": "ns",
+            "range": "± 0.9901660044785645"
           }
         ]
       }
