@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738616430902,
+  "lastUpdate": 1738616450648,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -13685,6 +13685,54 @@ window.BENCHMARK_DATA = {
             "value": 30755.152079264324,
             "unit": "ns",
             "range": "± 34.6916623473927"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "badrishc@microsoft.com",
+            "name": "Badrish Chandramouli",
+            "username": "badrishc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a63ad801ceb155179084b6c728c3989c4e9a424c",
+          "message": "Add SortedSetCount to IGarnetApi (#978)\n\n* Add SortedSetCount to IGarnetApi\r\n\r\nUse it in test custom transaction (stored proc)\r\n\r\n* fix lock type",
+          "timestamp": "2025-02-03T11:53:45-08:00",
+          "tree_id": "3b8118f0eed1362111812ac7df184a69b5f97586",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/a63ad801ceb155179084b6c728c3989c4e9a424c"
+        },
+        "date": 1738616433397,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 35469.05752328726,
+            "unit": "ns",
+            "range": "± 30.297166747281306"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 39742.29169573103,
+            "unit": "ns",
+            "range": "± 52.383900903042445"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 31028.179495675224,
+            "unit": "ns",
+            "range": "± 33.193395812973606"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 30974.95291573661,
+            "unit": "ns",
+            "range": "± 41.628412264752725"
           }
         ]
       }
