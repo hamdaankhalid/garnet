@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740174180656,
+  "lastUpdate": 1740174205938,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -62369,6 +62369,102 @@ window.BENCHMARK_DATA = {
             "value": 119469.84456380208,
             "unit": "ns",
             "range": "± 123.53641258791338"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "15467143+TedHartMS@users.noreply.github.com",
+            "name": "Ted Hart",
+            "username": "TedHartMS"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b37bcc0a112c122274335c0ca49fe1482f29735f",
+          "message": "Pending iterator keycompare (#1037)\n\n* Add test and comments to confirm ContinuePendingConditionalScanPush and ContinuePendingConditionalCopyToTail behave as expected in the presence of collisions.\n\n* formatting",
+          "timestamp": "2025-02-19T18:16:54-08:00",
+          "tree_id": "5fd6e5ef648c6c6f01d9d74d2ccc931e33c2ded9",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/b37bcc0a112c122274335c0ca49fe1482f29735f"
+        },
+        "date": 1740174193618,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: ACL)",
+            "value": 69255.71899414062,
+            "unit": "ns",
+            "range": "± 102.0277862138381"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: ACL)",
+            "value": 227520.2099609375,
+            "unit": "ns",
+            "range": "± 328.1797720420113"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: ACL)",
+            "value": 137490.82205636162,
+            "unit": "ns",
+            "range": "± 136.30331231560803"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: ACL)",
+            "value": 122693.23032924107,
+            "unit": "ns",
+            "range": "± 144.1936702838882"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: AOF)",
+            "value": 69323.64877554086,
+            "unit": "ns",
+            "range": "± 82.39214940933597"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: AOF)",
+            "value": 239043.71861049108,
+            "unit": "ns",
+            "range": "± 866.866637047175"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: AOF)",
+            "value": 149069.5556640625,
+            "unit": "ns",
+            "range": "± 340.71098732187176"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: AOF)",
+            "value": 147700.35400390625,
+            "unit": "ns",
+            "range": "± 327.65544478648707"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: None)",
+            "value": 68662.38919771634,
+            "unit": "ns",
+            "range": "± 58.40204932857439"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: None)",
+            "value": 228416.5771484375,
+            "unit": "ns",
+            "range": "± 229.50231543303056"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: None)",
+            "value": 135590.90924944196,
+            "unit": "ns",
+            "range": "± 141.40267571712275"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: None)",
+            "value": 122254.65463491586,
+            "unit": "ns",
+            "range": "± 133.51467828139812"
           }
         ]
       }
