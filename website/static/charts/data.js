@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740186409986,
+  "lastUpdate": 1740186411538,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -70939,6 +70939,48 @@ window.BENCHMARK_DATA = {
             "value": 19226.383770751952,
             "unit": "ns",
             "range": "± 63.568977006076366"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "42720645+hamdaankhalid@users.noreply.github.com",
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalid"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "021f5c0f25631fe84061991e105ea68160d25b0c",
+          "message": "Add SETIFGREATER ETag command (#968)\n\n* init impl SETIFGREATER\n\n* Redis documentation and tests\n\n* Fix issue in RCU route\n\n* FMT\n\n* Txn and acl test\n\n* emphasize link to raw string set\n\n* Update command docs\n\n* PR feedback\n\n* Add NOGET to SETIFMATCH and SETIFGREATRER options\n\n* add ability to add key value at fist insertion\n\n* Update docs\n\n* update test\n\n* Rename base etag to no etag\n\n---------\n\nCo-authored-by: Hamdaan Khalid <hkhalid@microsoft.com>",
+          "timestamp": "2025-02-21T15:01:52-08:00",
+          "tree_id": "d59f6bb571ae267d6906344258fd4901f51fa202",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/021f5c0f25631fe84061991e105ea68160d25b0c"
+        },
+        "date": 1740186405762,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: ACL)",
+            "value": 19491.529154459637,
+            "unit": "ns",
+            "range": "± 17.02937526501745"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AOF)",
+            "value": 20434.158499581474,
+            "unit": "ns",
+            "range": "± 98.6359126969289"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: None)",
+            "value": 20106.329018729073,
+            "unit": "ns",
+            "range": "± 89.78583976986995"
           }
         ]
       }
