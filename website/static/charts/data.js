@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740186629586,
+  "lastUpdate": 1740186689973,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -5771,6 +5771,150 @@ window.BENCHMARK_DATA = {
             "value": 614.540411729079,
             "unit": "ns",
             "range": "± 1.8023485386407625"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "42720645+hamdaankhalid@users.noreply.github.com",
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalid"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "021f5c0f25631fe84061991e105ea68160d25b0c",
+          "message": "Add SETIFGREATER ETag command (#968)\n\n* init impl SETIFGREATER\n\n* Redis documentation and tests\n\n* Fix issue in RCU route\n\n* FMT\n\n* Txn and acl test\n\n* emphasize link to raw string set\n\n* Update command docs\n\n* PR feedback\n\n* Add NOGET to SETIFMATCH and SETIFGREATRER options\n\n* add ability to add key value at fist insertion\n\n* Update docs\n\n* update test\n\n* Rename base etag to no etag\n\n---------\n\nCo-authored-by: Hamdaan Khalid <hkhalid@microsoft.com>",
+          "timestamp": "2025-02-21T15:01:52-08:00",
+          "tree_id": "d59f6bb571ae267d6906344258fd4901f51fa202",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/021f5c0f25631fe84061991e105ea68160d25b0c"
+        },
+        "date": 1740186685137,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script1(Params: Managed,Limit)",
+            "value": 252.41912048203605,
+            "unit": "ns",
+            "range": "± 2.2963421845698355"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script2(Params: Managed,Limit)",
+            "value": 318.14844533375333,
+            "unit": "ns",
+            "range": "± 1.307728467304791"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script3(Params: Managed,Limit)",
+            "value": 529.6430893625532,
+            "unit": "ns",
+            "range": "± 3.2047504658237633"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script4(Params: Managed,Limit)",
+            "value": 635.485288986793,
+            "unit": "ns",
+            "range": "± 2.9752536231040208"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script1(Params: Managed,None)",
+            "value": 270.1312373706273,
+            "unit": "ns",
+            "range": "± 0.20246544513717685"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script2(Params: Managed,None)",
+            "value": 328.98333384440497,
+            "unit": "ns",
+            "range": "± 1.0632182273430082"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script3(Params: Managed,None)",
+            "value": 532.928896018437,
+            "unit": "ns",
+            "range": "± 1.0677326351094656"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script4(Params: Managed,None)",
+            "value": 595.111319065094,
+            "unit": "ns",
+            "range": "± 2.9496102807210436"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script1(Params: Native,None)",
+            "value": 251.9562817811966,
+            "unit": "ns",
+            "range": "± 0.3302877385198807"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script2(Params: Native,None)",
+            "value": 319.4736917935885,
+            "unit": "ns",
+            "range": "± 0.6415042775340678"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script3(Params: Native,None)",
+            "value": 524.7229119080764,
+            "unit": "ns",
+            "range": "± 1.1954161848399858"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script4(Params: Native,None)",
+            "value": 597.775716645377,
+            "unit": "ns",
+            "range": "± 3.398822271326491"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script1(Params: Tracked,Limit)",
+            "value": 265.5361028817984,
+            "unit": "ns",
+            "range": "± 0.3951581414824897"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script2(Params: Tracked,Limit)",
+            "value": 317.3049883842468,
+            "unit": "ns",
+            "range": "± 1.0168934862532775"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script3(Params: Tracked,Limit)",
+            "value": 517.7609465281168,
+            "unit": "ns",
+            "range": "± 2.190043259483943"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script4(Params: Tracked,Limit)",
+            "value": 606.7377026875814,
+            "unit": "ns",
+            "range": "± 0.9150718361014657"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script1(Params: Tracked,None)",
+            "value": 245.17643884512094,
+            "unit": "ns",
+            "range": "± 0.25162178992696654"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script2(Params: Tracked,None)",
+            "value": 324.721223456519,
+            "unit": "ns",
+            "range": "± 1.5403031034263988"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script3(Params: Tracked,None)",
+            "value": 517.0763746897379,
+            "unit": "ns",
+            "range": "± 2.912234109343998"
+          },
+          {
+            "name": "BDN.benchmark.Lua.LuaScripts.Script4(Params: Tracked,None)",
+            "value": 609.7411966323853,
+            "unit": "ns",
+            "range": "± 1.3377703859583363"
           }
         ]
       }
