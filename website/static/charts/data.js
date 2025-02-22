@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740186524117,
+  "lastUpdate": 1740186546279,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -66797,6 +66797,90 @@ window.BENCHMARK_DATA = {
             "value": 383.8175048192342,
             "unit": "ns",
             "range": "± 2.2039501531773364"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "42720645+hamdaankhalid@users.noreply.github.com",
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalid"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "021f5c0f25631fe84061991e105ea68160d25b0c",
+          "message": "Add SETIFGREATER ETag command (#968)\n\n* init impl SETIFGREATER\n\n* Redis documentation and tests\n\n* Fix issue in RCU route\n\n* FMT\n\n* Txn and acl test\n\n* emphasize link to raw string set\n\n* Update command docs\n\n* PR feedback\n\n* Add NOGET to SETIFMATCH and SETIFGREATRER options\n\n* add ability to add key value at fist insertion\n\n* Update docs\n\n* update test\n\n* Rename base etag to no etag\n\n---------\n\nCo-authored-by: Hamdaan Khalid <hkhalid@microsoft.com>",
+          "timestamp": "2025-02-21T15:01:52-08:00",
+          "tree_id": "d59f6bb571ae267d6906344258fd4901f51fa202",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/021f5c0f25631fe84061991e105ea68160d25b0c"
+        },
+        "date": 1740186541936,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Set(Params: None)",
+            "value": 248.04449231284005,
+            "unit": "ns",
+            "range": "± 2.400460382945855"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetEx(Params: None)",
+            "value": 288.1988776842753,
+            "unit": "ns",
+            "range": "± 2.4891861098037493"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetNx(Params: None)",
+            "value": 327.3361422220866,
+            "unit": "ns",
+            "range": "± 2.5224628523459045"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetXx(Params: None)",
+            "value": 339.0337122508458,
+            "unit": "ns",
+            "range": "± 0.5433213036123609"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.GetFound(Params: None)",
+            "value": 252.5521179040273,
+            "unit": "ns",
+            "range": "± 0.5100835770401058"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.GetNotFound(Params: None)",
+            "value": 187.8555804674442,
+            "unit": "ns",
+            "range": "± 0.43895187566464733"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Increment(Params: None)",
+            "value": 318.0547717534579,
+            "unit": "ns",
+            "range": "± 0.5440303048911215"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Decrement(Params: None)",
+            "value": 313.35569961254413,
+            "unit": "ns",
+            "range": "± 0.9444751124818709"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.IncrementBy(Params: None)",
+            "value": 381.66547548770905,
+            "unit": "ns",
+            "range": "± 0.4443091249955988"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.DecrementBy(Params: None)",
+            "value": 373.9468122262221,
+            "unit": "ns",
+            "range": "± 1.299246858531154"
           }
         ]
       }
