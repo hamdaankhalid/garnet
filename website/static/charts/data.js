@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740186546279,
+  "lastUpdate": 1740186629586,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -62489,6 +62489,102 @@ window.BENCHMARK_DATA = {
             "value": 97305.27866617839,
             "unit": "ns",
             "range": "± 537.0317394358883"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "42720645+hamdaankhalid@users.noreply.github.com",
+            "name": "Hamdaan Khalid",
+            "username": "hamdaankhalid"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "021f5c0f25631fe84061991e105ea68160d25b0c",
+          "message": "Add SETIFGREATER ETag command (#968)\n\n* init impl SETIFGREATER\n\n* Redis documentation and tests\n\n* Fix issue in RCU route\n\n* FMT\n\n* Txn and acl test\n\n* emphasize link to raw string set\n\n* Update command docs\n\n* PR feedback\n\n* Add NOGET to SETIFMATCH and SETIFGREATRER options\n\n* add ability to add key value at fist insertion\n\n* Update docs\n\n* update test\n\n* Rename base etag to no etag\n\n---------\n\nCo-authored-by: Hamdaan Khalid <hkhalid@microsoft.com>",
+          "timestamp": "2025-02-21T15:01:52-08:00",
+          "tree_id": "d59f6bb571ae267d6906344258fd4901f51fa202",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/021f5c0f25631fe84061991e105ea68160d25b0c"
+        },
+        "date": 1740186625011,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: ACL)",
+            "value": 47721.02365112305,
+            "unit": "ns",
+            "range": "± 42.957256227648365"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: ACL)",
+            "value": 197437.3466971261,
+            "unit": "ns",
+            "range": "± 895.0467614329989"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: ACL)",
+            "value": 121458.05997721355,
+            "unit": "ns",
+            "range": "± 873.9760632909232"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: ACL)",
+            "value": 98643.8689313616,
+            "unit": "ns",
+            "range": "± 494.1625529695221"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: AOF)",
+            "value": 49255.94889479417,
+            "unit": "ns",
+            "range": "± 65.515374515891"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: AOF)",
+            "value": 206778.24787248884,
+            "unit": "ns",
+            "range": "± 1028.004561810641"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: AOF)",
+            "value": 136224.6058872768,
+            "unit": "ns",
+            "range": "± 807.1027538071256"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: AOF)",
+            "value": 123222.2900766226,
+            "unit": "ns",
+            "range": "± 473.7016775086843"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomRawStringCommand(Params: None)",
+            "value": 48640.02741652269,
+            "unit": "ns",
+            "range": "± 231.4002582834795"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomObjectCommand(Params: None)",
+            "value": 198187.80821010045,
+            "unit": "ns",
+            "range": "± 723.7787825029247"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomTransaction(Params: None)",
+            "value": 122706.66751302083,
+            "unit": "ns",
+            "range": "± 468.7305366248558"
+          },
+          {
+            "name": "BDN.benchmark.Operations.CustomOperations.CustomProcedure(Params: None)",
+            "value": 99905.71081542969,
+            "unit": "ns",
+            "range": "± 229.92520556365324"
           }
         ]
       }
