@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741314049924,
+  "lastUpdate": 1741314082295,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -25019,6 +25019,66 @@ window.BENCHMARK_DATA = {
             "value": 100377.05514090402,
             "unit": "ns",
             "range": "± 154.39203996380647"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52283326+prvyk@users.noreply.github.com",
+            "name": "prvyk",
+            "username": "prvyk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6cee2afcfc2a43001b987d2c1a3859c6dec844eb",
+          "message": "Check number of keys in EVAL/EVALSHA (#1067)\n\nReturn correct type in SCRIPT EXISTS\n\nCo-authored-by: prvyk <github@privatemail.fastmailbox.net>",
+          "timestamp": "2025-03-06T17:26:54-08:00",
+          "tree_id": "c55bdf0c036e8821a457f758a1b35016e5c78da7",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/6cee2afcfc2a43001b987d2c1a3859c6dec844eb"
+        },
+        "date": 1741314069019,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 102685.04638671875,
+            "unit": "ns",
+            "range": "± 190.43494642772248"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: ACL)",
+            "value": 110640.16636439732,
+            "unit": "ns",
+            "range": "± 234.85837440919101"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 118025.70364815848,
+            "unit": "ns",
+            "range": "± 243.18532001049743"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: AOF)",
+            "value": 118855.8088030134,
+            "unit": "ns",
+            "range": "± 395.2398676461269"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 106488.19754464286,
+            "unit": "ns",
+            "range": "± 293.6128934301776"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: None)",
+            "value": 101453.06681315105,
+            "unit": "ns",
+            "range": "± 257.4302000707289"
           }
         ]
       }
