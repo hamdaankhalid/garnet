@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741313739064,
+  "lastUpdate": 1741313771751,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -71209,6 +71209,90 @@ window.BENCHMARK_DATA = {
             "value": 335.8244929994856,
             "unit": "ns",
             "range": "± 0.34146408945522727"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52283326+prvyk@users.noreply.github.com",
+            "name": "prvyk",
+            "username": "prvyk"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6cee2afcfc2a43001b987d2c1a3859c6dec844eb",
+          "message": "Check number of keys in EVAL/EVALSHA (#1067)\n\nReturn correct type in SCRIPT EXISTS\n\nCo-authored-by: prvyk <github@privatemail.fastmailbox.net>",
+          "timestamp": "2025-03-06T17:26:54-08:00",
+          "tree_id": "c55bdf0c036e8821a457f758a1b35016e5c78da7",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/6cee2afcfc2a43001b987d2c1a3859c6dec844eb"
+        },
+        "date": 1741313763141,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Set(Params: None)",
+            "value": 217.07580456366907,
+            "unit": "ns",
+            "range": "± 0.17082614682390537"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetEx(Params: None)",
+            "value": 275.01283373151506,
+            "unit": "ns",
+            "range": "± 0.4181362654878302"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetNx(Params: None)",
+            "value": 306.4906946818034,
+            "unit": "ns",
+            "range": "± 0.8089042298678265"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetXx(Params: None)",
+            "value": 315.6612668718611,
+            "unit": "ns",
+            "range": "± 0.2729697505377761"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.GetFound(Params: None)",
+            "value": 220.6840944290161,
+            "unit": "ns",
+            "range": "± 0.1911590419660008"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.GetNotFound(Params: None)",
+            "value": 173.71344749744122,
+            "unit": "ns",
+            "range": "± 0.21573451541060204"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Increment(Params: None)",
+            "value": 312.656485406976,
+            "unit": "ns",
+            "range": "± 10.596429596838773"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Decrement(Params: None)",
+            "value": 292.53387848536175,
+            "unit": "ns",
+            "range": "± 0.4812945708229228"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.IncrementBy(Params: None)",
+            "value": 362.32022921244305,
+            "unit": "ns",
+            "range": "± 1.483252256014111"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.DecrementBy(Params: None)",
+            "value": 358.1777540842692,
+            "unit": "ns",
+            "range": "± 0.6011679371428447"
           }
         ]
       }
