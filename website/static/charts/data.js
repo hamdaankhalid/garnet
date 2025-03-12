@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741810164351,
+  "lastUpdate": 1741810312119,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -25643,6 +25643,102 @@ window.BENCHMARK_DATA = {
             "value": 101453.06681315105,
             "unit": "ns",
             "range": "± 257.4302000707289"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "talzacc@microsoft.com",
+            "name": "Tal Zaccai",
+            "username": "TalZaccai"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0ea732d10bbc85435e518104e32f76754c22bd25",
+          "message": "Updating nanoserver Dockerfile (#1092)",
+          "timestamp": "2025-03-11T20:58:49-07:00",
+          "tree_id": "d261ab7cbe173e229555b870a0cf7595533a6189",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/0ea732d10bbc85435e518104e32f76754c22bd25"
+        },
+        "date": 1741810296177,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 112198.06640625,
+            "unit": "ns",
+            "range": "± 371.44653329854515"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: ACL)",
+            "value": 108698.173828125,
+            "unit": "ns",
+            "range": "± 207.72657056033427"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 91276.00504557292,
+            "unit": "ns",
+            "range": "± 475.48298070552596"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: ACL)",
+            "value": 95531.3227726863,
+            "unit": "ns",
+            "range": "± 465.3346413179347"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 120068.64664713542,
+            "unit": "ns",
+            "range": "± 361.7135509182848"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: AOF)",
+            "value": 113133.64990234375,
+            "unit": "ns",
+            "range": "± 277.502592710156"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 103843.77400716145,
+            "unit": "ns",
+            "range": "± 242.18447190543694"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: AOF)",
+            "value": 98482.94677734375,
+            "unit": "ns",
+            "range": "± 242.85781797480846"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 103286.5087890625,
+            "unit": "ns",
+            "range": "± 230.79795417764663"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: None)",
+            "value": 104352.82968374398,
+            "unit": "ns",
+            "range": "± 148.24583674699335"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 91561.61586216518,
+            "unit": "ns",
+            "range": "± 470.66530475611387"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.SAddRem(Params: None)",
+            "value": 85820.35696847098,
+            "unit": "ns",
+            "range": "± 291.7210928273322"
           }
         ]
       }
