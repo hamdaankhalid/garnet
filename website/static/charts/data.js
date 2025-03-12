@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741810007965,
+  "lastUpdate": 1741810073728,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -88111,6 +88111,80 @@ window.BENCHMARK_DATA = {
             "value": 129139.37174479167,
             "unit": "ns",
             "range": "± 197.38757272808593"
+          }
+        ]
+      }
+    ],
+    "Cluster.ClusterMigrate (ubuntu-latest  net9.0 Release)": [
+      {
+        "commit": {
+          "author": {
+            "email": "talzacc@microsoft.com",
+            "name": "Tal Zaccai",
+            "username": "TalZaccai"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0ea732d10bbc85435e518104e32f76754c22bd25",
+          "message": "Updating nanoserver Dockerfile (#1092)",
+          "timestamp": "2025-03-11T20:58:49-07:00",
+          "tree_id": "d261ab7cbe173e229555b870a0cf7595533a6189",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/0ea732d10bbc85435e518104e32f76754c22bd25"
+        },
+        "date": 1741810066429,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 36834.357930501305,
+            "unit": "ns",
+            "range": "± 56.645114034595075"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 39326.68045450847,
+            "unit": "ns",
+            "range": "± 272.5465563550732"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 31880.82759681115,
+            "unit": "ns",
+            "range": "± 130.2162217308717"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 31836.194650503305,
+            "unit": "ns",
+            "range": "± 109.89581688045631"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 35654.88224440355,
+            "unit": "ns",
+            "range": "± 42.37665642514631"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 36702.17306283804,
+            "unit": "ns",
+            "range": "± 335.9455601759233"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 31307.635750906808,
+            "unit": "ns",
+            "range": "± 149.8547145848543"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 29878.38180440267,
+            "unit": "ns",
+            "range": "± 122.04267089340892"
           }
         ]
       }
