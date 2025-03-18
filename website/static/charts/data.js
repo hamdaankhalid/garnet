@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741815326454,
+  "lastUpdate": 1742338395362,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -74371,6 +74371,42 @@ window.BENCHMARK_DATA = {
             "value": 88.32465374469757,
             "unit": "ns",
             "range": "± 0.4504463866428516"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "darrenge@microsoft.com",
+            "name": "darrenge",
+            "username": "darrenge"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "804c4a6be726222728eeb1db152b912c34deb839",
+          "message": "Bumped version to to 1.0.60 to generate a new build (#1109)",
+          "timestamp": "2025-03-18T13:33:30-07:00",
+          "tree_id": "35536505f39b61ecce0f90d62812e4189ee8a6f0",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/804c4a6be726222728eeb1db152b912c34deb839"
+        },
+        "date": 1742338391503,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Network.BasicOperations.InlinePing(Params: None)",
+            "value": 94.13131306171417,
+            "unit": "ns",
+            "range": "± 0.4820253213967532"
+          },
+          {
+            "name": "BDN.benchmark.Network.BasicOperations.InlinePing(Params: None)",
+            "value": 88.44785948594411,
+            "unit": "ns",
+            "range": "± 0.08862170741341134"
           }
         ]
       }
