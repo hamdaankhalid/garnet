@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742338495045,
+  "lastUpdate": 1742338577740,
   "repoUrl": "https://github.com/hamdaankhalid/garnet",
   "entries": {
     "Benchmark": [],
@@ -14567,6 +14567,66 @@ window.BENCHMARK_DATA = {
             "value": 1764.8187510172527,
             "unit": "ns",
             "range": "± 30.008383227234884"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "darrenge@microsoft.com",
+            "name": "darrenge",
+            "username": "darrenge"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "804c4a6be726222728eeb1db152b912c34deb839",
+          "message": "Bumped version to to 1.0.60 to generate a new build (#1109)",
+          "timestamp": "2025-03-18T13:33:30-07:00",
+          "tree_id": "35536505f39b61ecce0f90d62812e4189ee8a6f0",
+          "url": "https://github.com/hamdaankhalid/garnet/commit/804c4a6be726222728eeb1db152b912c34deb839"
+        },
+        "date": 1742338563547,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: ACL)",
+            "value": 2014.3069712320964,
+            "unit": "ns",
+            "range": "± 2.372906051723809"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: ACL)",
+            "value": 1828.5401270939753,
+            "unit": "ns",
+            "range": "± 3.2435578425657545"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AOF)",
+            "value": 1925.8543748121995,
+            "unit": "ns",
+            "range": "± 1.9868653928944002"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AOF)",
+            "value": 1673.2657023838588,
+            "unit": "ns",
+            "range": "± 3.309738397472336"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: None)",
+            "value": 1919.879678579477,
+            "unit": "ns",
+            "range": "± 3.8893232153078348"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: None)",
+            "value": 1892.4033641815186,
+            "unit": "ns",
+            "range": "± 1.0183104202951798"
           }
         ]
       }
